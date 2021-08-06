@@ -1,0 +1,44 @@
+.header {
+  min-height: 40vh;
+  text-align: center;
+
+  .title {
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .get-started {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+
+    a {
+      margin: 0 0.5em;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .github-button {
+      align-items: center;
+      background-color: $background;
+      border-radius: 5px;
+      color: $text;
+      display: flex;
+      font-size: 0.9em;
+      height: 32px;
+      justify-content: center;
+      width: 146px;
+
+      img {
+        height: 16px;
+        margin-right: 0.5em;
+        width: 16px;
+      }
+    }
+  }
+}

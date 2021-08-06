@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 1.5em;
+  justify-content: center;
+
+  &:nth-child(2n) {
+    background-color: $background;
+  }
+
+  &:nth-child(2n-1) {
+    background-color: $card-background;
+    padding: 4em 1.5em;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+  }
+}

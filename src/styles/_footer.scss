@@ -1,0 +1,32 @@
+.footer {
+  color: $text-muted;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  padding: 2em 1.5em;
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media (min-width: $bp-md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    a {
+      color: $link-muted;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .copyright {
+      margin-top: 1em;
+
+      @media (min-width: $bp-md) {
+        margin-top: 0;
+      }
+    }
+  }
+}
