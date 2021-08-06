@@ -63,21 +63,53 @@ export default helloWorld;
   </article>
   <article class="feature">
     <div class="logo">
-      <img src="url:./assets/css3-logo.svg" alt="CSS3" />
+      <img src="url:./assets/sass-logo.svg" alt="SASS" />
     </div>
-    <h3>CSS</h3>
+    <h3>SASS</h3>
     <p>
-      A plain ol' vanilla CSS stylesheet to get you started. Check out my Parcel
-      HTML, SASS, and JavaScript starter template if you are interested in using
-      the CSS pre-processor SASS. Or, have a look at the
+      Use the CSS pre-processor SASS to split your CSS into separate files and
+      use other features like
+      <a
+        href="https://sass-lang.com/documentation/variables"
+        target="_blank"
+        rel="noopener noreferrer"
+        >variables</a
+      >
+      and
+      <a
+        href="https://sass-lang.com/documentation/at-rules/mixin"
+        target="_blank"
+        rel="noopener noreferrer"
+        >mixins</a
+      >. Check out the
       <a
         href="https://v2.parceljs.org/"
         target="_blank"
         rel="noopener noreferrer"
         >Parcel docs</a
       >
-      if you're interested in adding on another pre- or post-processor such as
-      PostCSS, LESS, or Stylus.
+      if you're interested in using another pre- or post-processor such as
+      PostCSS, LESS, or Stylus. Or, have a look at
+      <a
+        href="https://parcel-html-css-js-starter-template.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >this same starter template using vanilla CSS</a
+      >
+      if you'd prefer.
     </p>
+    <pre><code class="language-scss">
+// styles.scss
+$link-color: #ff526f;
+$link-darkened-color: #ad001d;
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-darkened-color;
+  }
+}
+        </code></pre>
   </article>
 </div>
