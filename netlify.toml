@@ -1,0 +1,5 @@
+# This file configures deployment settings for Netlify
+# Feel free to remove if you are using another hosting provider.
+[build]
+  publish = "dist/"
+  command = "npm run build"

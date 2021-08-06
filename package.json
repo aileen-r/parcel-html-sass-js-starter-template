@@ -1,0 +1,29 @@
+{
+  "name": "parcel-html-css-js-starter-template",
+  "version": "0.1.0",
+  "description": "Starter template for building static web apps with HTML partials, CSS, and JavaScript.",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "npm run clean && parcel serve ./src/index.html",
+    "build": "npm run clean && parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aileen-r/parcel-html-css-js-starter-template.git"
+  },
+  "author": "Aileen Rae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aileen-r/parcel-html-css-js-starter-template/issues"
+  },
+  "homepage": "https://parcel-html-css-js-starter-template.netlify.app",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "posthtml-include": "^1.7.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "prismjs": "^1.24.1"
+  }
+}
