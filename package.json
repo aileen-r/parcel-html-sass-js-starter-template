@@ -19,12 +19,12 @@
   },
   "homepage": "https://parcel-html-sass-js-starter-template.netlify.app",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0",
-    "posthtml-include": "^1.7.1",
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0",
+    "posthtml-include": "^1.7.2",
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "prismjs": "^1.24.1"
+    "prismjs": "^1.25.0"
   }
 }
